@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.bdemmy.qolenchants.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockHandlerMixin",
+    "JumpHandlerMixin",
+    "ItemHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
