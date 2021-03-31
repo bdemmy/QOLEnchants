@@ -1,9 +1,19 @@
-# Fabric Example Mod
+# QOLEnchants
+Quality of Life enchantments plugin for Fabric. Adds several enchantments that are just nice to have without being bloated like other solutions
 
-## Setup
+- Inferno: Simple autosmelt enchantment. Integrated with fortune.
+- Vein Mine: Pretty self explanatory. On ores, will vein mine 
+  most/the entire vein. With trees it will destroy the entire 
+  tree with one hit. Integrates well with inferno.
+- Springheel: Boosted jump height. Can jump ~2 blocks high 
+  instead of the vanilla jump height of 1.
+- More to come
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+### Requirements
+* Fabric API
 
-## License
+### Version
+* 1.16.5
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+### Changelog
+* [1.0.0] Initial Commit. Added first three enchantments.
