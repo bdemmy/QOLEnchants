@@ -1,4 +1,4 @@
-package com.bdemmy.qolenchants.util;
+package bdemmy.qolenchants.util;
 
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;

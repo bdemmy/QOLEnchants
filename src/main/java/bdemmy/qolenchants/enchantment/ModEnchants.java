@@ -1,6 +1,6 @@
-package com.bdemmy.qolenchants.enchantment;
+package bdemmy.qolenchants.enchantment;
 
-import com.bdemmy.qolenchants.ModQOLEnchants;
+import bdemmy.qolenchants.ModQOLEnchants;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.EquipmentSlot;

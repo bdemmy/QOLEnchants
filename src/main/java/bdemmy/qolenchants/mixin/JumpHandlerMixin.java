@@ -1,6 +1,6 @@
-package com.bdemmy.qolenchants.mixin;
+package bdemmy.qolenchants.mixin;
 
-import com.bdemmy.qolenchants.ModQOLEnchants;
+import bdemmy.qolenchants.ModQOLEnchants;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -36,7 +36,10 @@ public abstract class JumpHandlerMixin {
     }
 
     // Modify the call to handleFallDamage, to reduce the fall damage threshold by two blocks.
-    @ModifyArg(method = "handleFallDamage(FF)Z", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;computeFallDamage(FF)I"), index = 0)
+    @ModifyArg(method = "handleFallDamage(FFLnet/minecraft/entity/damage/DamageSource;)Z",
+            at = @At(value = "INVOKE",
+                    target = "Lnet/minecraft/entity/LivingEntity;computeFallDamage(FF)I"),
+            index = 0)
     private float adjustFallHeight(float fallDistance) {
         if ((Object) this instanceof PlayerEntity) {
             PlayerEntity playerEntity = (PlayerEntity) (Object) this;

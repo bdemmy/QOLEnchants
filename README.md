@@ -6,14 +6,15 @@ Quality of Life enchantments plugin for Fabric. Adds several enchantments that a
   most/the entire vein. With trees it will destroy the entire 
   tree with one hit. Integrates well with inferno.
 - Springheel: Boosted jump height. Can jump ~2 blocks high 
-  instead of the vanilla jump height of 1.
+  instead of the vanilla jump height of 1. Also increases the height that the player can fall from before taking damage. (~2 Blocks)
 - More to come
 
 ### Requirements
-* Fabric API
+* Fabric API >= 0.11.6
 
 ### Version
-* 1.16.5
+* 1.17.1
 
 ### Changelog
-* [1.0.0] Initial Commit. Added first three enchantments.
+* [0.1.1] Updated to Java 16 and Mineraft 1.17.1. Minor refactoring for consistency.
+* [0.1.0] Initial Commit. Added first three enchantments.

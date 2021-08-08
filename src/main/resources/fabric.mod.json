@@ -14,7 +14,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.bdemmy.qolenchants.ModQOLEnchants"
+      "bdemmy.qolenchants.ModQOLEnchants"
     ]
   },
   "mixins": [
@@ -22,7 +22,7 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.4.0",
+    "fabricloader": ">=0.11.6",
     "fabric": "*"
   },
   "suggests": {

@@ -1,6 +1,6 @@
-package com.bdemmy.qolenchants;
+package bdemmy.qolenchants;
 
-import com.bdemmy.qolenchants.enchantment.ModEnchants;
+import bdemmy.qolenchants.enchantment.ModEnchants;
 import net.fabricmc.api.ModInitializer;
 
 public class ModQOLEnchants implements ModInitializer {

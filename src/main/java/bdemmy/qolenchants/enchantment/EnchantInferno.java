@@ -1,4 +1,4 @@
-package com.bdemmy.qolenchants.enchantment;
+package bdemmy.qolenchants.enchantment;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
