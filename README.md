@@ -10,11 +10,12 @@ Quality of Life enchantments plugin for Fabric. Adds several enchantments that a
 - More to come
 
 ### Requirements
-* Fabric API >= 0.11.6
+* Fabric API >= 0.12.12
 
 ### Version
-* 1.17.1
+* 1.18.1
 
 ### Changelog
-* [0.1.1] Updated to Java 16 and Mineraft 1.17.1. Minor refactoring for consistency.
+* [0.1.2] Updated to Java 17 and Minecraft 1.18.1.
+* [0.1.1] Updated to Java 16 and Minecraft 1.17.1. Minor refactoring for consistency.
 * [0.1.0] Initial Commit. Added first three enchantments.
